@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import ProfileCard from './ProfileCard'
+import Profile from './Profile'
 import GridView from './GridView'
 import Todo from './Todo'
 import Navbar from './Navbar'
@@ -30,7 +30,7 @@ function App() {
         <Routes>
         {/* <Route path="/todo" element={<Todo />} /> */}
         <Route path="/" element={<Home/>} />
-        <Route path="/profilecard" element={<ProfileCard profile= {Profilelist} />} />
+        <Route path="/profilecard" element={<Profile Profilelist={Profilelist}/>} />
         <Route path="/gridview" element={<GridView />} />
         <Route
         path="/reduxcounter"
