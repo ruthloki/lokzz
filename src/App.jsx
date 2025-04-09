@@ -10,8 +10,7 @@ import Home from './Home'
 import store from './storeredux'
 import { Provider } from 'react-redux'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-const Profilelist = {
+const ProfileLst = {
   name: "LOKESH",
   Department: "AIDS",
   year: 2,
@@ -30,7 +29,7 @@ function App() {
         <Routes>
         {/* <Route path="/todo" element={<Todo />} /> */}
         <Route path="/" element={<Home/>} />
-        <Route path="/profilecard" element={<Profile Profilelist={Profilelist}/>} />
+        <Route path="/profilecard" element={<Profile ProfileLst={ProfileLst}/>} />
         <Route path="/gridview" element={<GridView />} />
         <Route
         path="/reduxcounter"

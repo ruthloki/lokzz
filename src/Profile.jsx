@@ -1,13 +1,7 @@
 import React from "react";
 import reactlogo from "./assets/react.svg";
-// const profilelist={
-//   name:"LOKESH",
-//   department:"AI&DS",
-//   year:"2",
-//   mobile:"8682012275",
-//   address:"836.North street,Nainarpalayam",
-// };
-const Profile = ({profilelist}) => {
+
+const Profile = ({ProfileLst}) => {
   return (
     <div
       style={{
@@ -53,11 +47,11 @@ const Profile = ({profilelist}) => {
                 borderRadius: "50%",
                 
             }}/>
-        <p>{profilelist.name}</p>
-        <p>Department: {profilelist.department}</p>
-        <p>Year: {profilelist.year}</p>
-        <p>Mobile: {profilelist.mobile}</p>
-        <p>Address: {profilelist.address}</p>
+        <p>{ProfileLst.name}</p>
+        <p>Department: {ProfileLst.department}</p>
+        <p>Year: {ProfileLst.year}</p>
+        <p>Mobile: {ProfileLst.mobile}</p>
+        <p>Address: {ProfileLst.address}</p>
       </div>
     </div>
     </div>
