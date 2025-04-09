@@ -9,8 +9,8 @@ import Navbar from './Navbar'
 import Home from './Home'
 import store from './storeredux'
 import { Provider } from 'react-redux'
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 const Profilelist = {
   name: "LOKESH",
   Department: "AIDS",
@@ -51,4 +51,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

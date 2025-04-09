@@ -4,8 +4,8 @@ const profilelist={
   name:"LOKESH",
   department:"AI&DS",
   year:"2",
-  mobile:"8220653954",
-  address:"836,north street, nainarpalayam",
+  mobile:"8682012275",
+  address:"836.North street,Nainarpalayam",
 };
 const Profilecard = () => {
   return (
